@@ -1,0 +1,64 @@
+body {
+  /*reset all defaults value*/
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+}
+
+/*---navigation bar---*/
+.navbar {
+  background: #f5f5f5;
+}
+
+.navlink,
+.navbar-brand {
+  color: #000000;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+}
+
+/*footer*/
+.page-footer {
+  background-color: #444444;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+}
+
+.footer-copyright {
+  color: #f2f2f2;
+  padding: 40px;
+}
