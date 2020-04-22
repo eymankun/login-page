@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Login</title>
+  <title>Login | tea-coding</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -120,10 +120,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <div class="navbar-nav nav-inline my-2 my-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="login.php">Login<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-dark" href="login.php">Login</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="register.php">Register</a>
+          <a class="nav-link text-dark" href="register.php">Register</a>
         </li>
       </div>
     </div>
@@ -140,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
         <span class="help-block" style="color: red;"><?php echo $username_err; ?></span>
 
-        <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+        <div class="form-group mt-3 <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
           <label>Password</label>
           <input type="password" name="password" class="form-control">
           <span class="help-block" style="color: red;"><?php echo $password_err; ?></span>

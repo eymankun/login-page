@@ -1,8 +1,8 @@
 <?php
 //databases credential
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '!Pol11sla!');
+define('DB_USERNAME', 'dinogarr');
+define('DB_PASSWORD', 'Pol11sla');
 define('DB_NAME', 'users');
 
 /*Attempt to connect DB */
